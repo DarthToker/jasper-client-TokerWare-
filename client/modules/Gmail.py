@@ -84,7 +84,7 @@ def fetchUnreadEmails(profile, since=None, markRead=False, limit=None):
     return msgs
 
 
-def handle(text, mic, profile):
+def handle(self, text, mic, profile):
     """
         Responds to user-input, typically speech text, with a summary of
         the user's Gmail inbox, reporting on the number of unread emails

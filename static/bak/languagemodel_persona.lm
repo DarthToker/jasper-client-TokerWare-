@@ -1,0 +1,101 @@
+Language model created by QuickLM on Thu Apr  7 21:57:32 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 19 sentences and 21 words
+
+\data\
+ngram 1=21
+ngram 2=38
+ngram 3=19
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.0569 BE -0.2218
+-2.0569 BEING -0.2218
+-2.0569 BUT -0.2218
+-2.0569 DID -0.2218
+-2.0569 FIRST -0.2218
+-2.0569 HAVE -0.2218
+-2.0569 IN -0.2218
+-2.0569 IS -0.2218
+-2.0569 IT -0.2218
+-2.0569 MINION -0.2218
+-2.0569 NEED -0.2218
+-2.0569 NOW -0.2218
+-2.0569 RIGHT -0.2218
+-2.0569 SAY -0.2218
+-2.0569 SPUD -0.2218
+-2.0569 WHAT -0.2218
+-2.0569 WHICH -0.2218
+-2.0569 WITH -0.2218
+-2.0569 WORK -0.2218
+
+\2-grams:
+-1.5798 <s> BE 0.0000
+-1.5798 <s> BEING 0.0000
+-1.5798 <s> BUT 0.0000
+-1.5798 <s> DID 0.0000
+-1.5798 <s> FIRST 0.0000
+-1.5798 <s> HAVE 0.0000
+-1.5798 <s> IN 0.0000
+-1.5798 <s> IS 0.0000
+-1.5798 <s> IT 0.0000
+-1.5798 <s> MINION 0.0000
+-1.5798 <s> NEED 0.0000
+-1.5798 <s> NOW 0.0000
+-1.5798 <s> RIGHT 0.0000
+-1.5798 <s> SAY 0.0000
+-1.5798 <s> SPUD 0.0000
+-1.5798 <s> WHAT 0.0000
+-1.5798 <s> WHICH 0.0000
+-1.5798 <s> WITH 0.0000
+-1.5798 <s> WORK 0.0000
+-0.3010 BE </s> -0.3010
+-0.3010 BEING </s> -0.3010
+-0.3010 BUT </s> -0.3010
+-0.3010 DID </s> -0.3010
+-0.3010 FIRST </s> -0.3010
+-0.3010 HAVE </s> -0.3010
+-0.3010 IN </s> -0.3010
+-0.3010 IS </s> -0.3010
+-0.3010 IT </s> -0.3010
+-0.3010 MINION </s> -0.3010
+-0.3010 NEED </s> -0.3010
+-0.3010 NOW </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 SAY </s> -0.3010
+-0.3010 SPUD </s> -0.3010
+-0.3010 WHAT </s> -0.3010
+-0.3010 WHICH </s> -0.3010
+-0.3010 WITH </s> -0.3010
+-0.3010 WORK </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BE </s>
+-0.3010 <s> BEING </s>
+-0.3010 <s> BUT </s>
+-0.3010 <s> DID </s>
+-0.3010 <s> FIRST </s>
+-0.3010 <s> HAVE </s>
+-0.3010 <s> IN </s>
+-0.3010 <s> IS </s>
+-0.3010 <s> IT </s>
+-0.3010 <s> MINION </s>
+-0.3010 <s> NEED </s>
+-0.3010 <s> NOW </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> SAY </s>
+-0.3010 <s> SPUD </s>
+-0.3010 <s> WHAT </s>
+-0.3010 <s> WHICH </s>
+-0.3010 <s> WITH </s>
+-0.3010 <s> WORK </s>
+
+\end\

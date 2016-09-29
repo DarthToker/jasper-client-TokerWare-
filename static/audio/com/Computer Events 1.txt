@@ -1,0 +1,56 @@
+File 001.wav - A Simulation Would Be Limited...
+File 002.wav - Access Denied, Logs...
+File 003.wav - Access Denied
+File 004.wav - Accessing
+File 005.wav - Adjustments... Complete
+File 006.wav - Affirmative
+File 007.wav - Anti-Matter Containment Positive...
+File 008.wav - Authorization Denied
+File 009.wav - Auto Defence Proc Initiated
+File 010.wav - Auto Destruct Seq Armed
+File 011.wav - Auto Engage Time Sequence...
+File 012.wav - By Accessing Available Imagery...
+File 013.wav - Command Codes Verified
+File 014.wav - Command Functions are Offline
+File 015.wav - Danger, Safety Limits...
+File 016.wav - Deactivation Complete
+File 017.wav - Deck One Life Support...
+File 018.wav - Define Parameters of Program
+File 019.wav - Define, Please
+File 020.wav - Deflector Shield Failure...
+File 021.wav - Diagnostic Complete
+File 022.wav - Diagnostic Cycle Will Be Complete...
+File 023.wav - Direction Unclear
+File 024.wav - Emergency Power Engaged
+File 025.wav - Emission is Not Consistant...
+File 026.wav - End Simulation
+File 027.wav - Energy Field Stregnth Increasing
+File 028.wav - Energy Reserves... Critical State
+File 029.wav - Enter Authorization Code
+File 030.wav - Enter When Ready
+File 031.wav - Executed
+File 032.wav - Holodeck 3 Program is Ready
+File 033.wav - Holodeck 3 Program is Re-enststed
+File 034.wav - Information on this Sector...
+File 035.wav - Initiating Update
+File 036.wav - Input Algorithm Not Accepted
+File 037.wav - Inquires are No Longer Accepted...
+File 038.wav - Insufficient Data
+File 039.wav - Interface Complete
+File 040.wav - Linkage Complete
+File 041.wav - Logs Accessed
+File 042.wav - Negative
+File 043.wav - No Audio Anomolies Present
+File 044.wav - No Introferalmetric Patterns...
+File 045.wav - No Subspace Projections Present
+File 046.wav - No Temporal Anomolys...
+File 047.wav - No Z Particles Present
+File 048.wav - Now Disconnected...
+File 049.wav - Now Establishing Datalink
+File 050.wav - One Minute to Auto-Destruct
+File 051.wav - Online Assistance Activated
+File 052.wav - Override Authority Restricted
+File 053.wav - Please Confirm Deactivation
+File 054.wav - Please Do Not Address This Unit...
+File 055.wav - Please Enter Program
+File 056.wav - Please Indicate... to Over-ride

@@ -18,3 +18,5 @@ def config(*fname):
 
 def data(*fname):
     return os.path.join(DATA_PATH, *fname)
+def mod(*fname):
+    return os.path.join(PLUGIN_PATH, *fname)

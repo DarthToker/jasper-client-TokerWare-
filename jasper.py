@@ -1,16 +1,45 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8-*-
-
+import RPi.GPIO as GPIO
 import os
 import sys
 import shutil
 import logging
-
+import random
 import yaml
 import argparse
-
+import time
 from client import tts, stt, jasperpath, diagnose
 from client.conversation import Conversation
+from client.pyg import Pygm
+
+os.putenv('SDL_VIDEODRIVER', 'fbcon')
+os.putenv('SDL_FBDEV'      , '/dev/fb1')
+os.putenv('SDL_MOUSEDRV'   , 'TSLIB')
+os.putenv('SDL_MOUSEDEV'   , '/dev/input/touchscreen')
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(27,GPIO.OUT)
+GPIO.output(27,1)
+image = 'nu.png'
+size = width, height = 320, 320
+screensize = 480, 320
+gray     = (100, 100, 100)
+nvb = ( 60,  60, 100)
+white    = (255, 255, 255)
+red      = (255,   0,   0)
+green    = (  0, 255,   0)
+blue     = (  0,   0, 255)
+yellow   = (255, 255,   0)
+orang   = (255, 128,   0)
+purple   = (255,   0, 255)
+cyan     = (  0, 255, 255)
+black = (0, 0, 0)
+
+x=0
+y=0
+
+
 
 # Add jasperpath.LIB_PATH to sys.path
 sys.path.append(jasperpath.LIB_PATH)
@@ -33,6 +62,21 @@ else:
 
 class Jasper(object):
     def __init__(self):
+        self.pygm = Pygm()
+        tx=240
+        ty=160
+        step=5
+        for i in range(0,320,step):
+            size2 = (i,i)
+            self.pygm.blittxtimgam('', 50, red, tx, ty, tx, ty, 'dtoker.jpg', size2, 0, 0, black)
+            self.pygm.clock.tick(60)
+
+
+        for i in range(-20,300,step):
+            self.pygm.blittxtimgam('TokerWare', 50, red, tx, i, tx, ty, 'dtoker.jpg', size2, 0, 0, black)
+            self.pygm.clock.tick(60)
+        time.sleep(3)
+
         self._logger = logging.getLogger(__name__)
 
         # Create config dir if it does not exist yet
@@ -105,19 +149,23 @@ class Jasper(object):
         self.mic = Mic(tts_engine_class.get_instance(),
                        stt_passive_engine_class.get_passive_instance(),
                        stt_engine_class.get_active_instance())
-
     def run(self):
-        if 'first_name' in self.config:
-            salutation = ("How can I be of service, %s?"
-                          % self.config["first_name"])
-        else:
-            salutation = "How can I be of service?"
+        greet = ["How can I be of service master?", "I live again master", "hal 9000 now on line", "hello how are you master"]
+        
+        salutation = random.choice(greet)
+        self.pygm.blitimg('nu.png', size, black, x, y)
+
         self.mic.say(salutation)
 
-        conversation = Conversation("JASPER", self.mic, self.config)
+        conversation = Conversation("JARVIS", self.mic, self.config, self.pygm)
         conversation.handleForever()
 
+##a = Pygm()
+##a.fbackground(black)
+##a.blitimg('dtoker.jpg', size, black, x, y)
+##a.blittxt3('TokerWare', 50, red, 240, 300)
 if __name__ == "__main__":
+ 
 
     print("*******************************************************")
     print("*             JASPER - THE TALKING COMPUTER           *")

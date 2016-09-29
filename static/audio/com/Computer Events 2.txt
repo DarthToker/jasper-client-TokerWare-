@@ -1,0 +1,80 @@
+File 057.wav - Please Input Command Codes
+File 058.wav - Please Repeat Request
+File 059.wav - Please Restate a Single Question
+File 060.wav - Please Restate Question
+File 061.wav - Please Specify How...
+File 062.wav - Priority Clearance Alpha One
+File 063.wav - Priority Message...
+File 064.wav - Priority One Distress Signal
+File 065.wav - Priority One Message...
+File 066.wav - Program Alpha One...
+File 067.wav - Program Complete, Enter...
+File 068.wav - Program Complete
+File 069.wav - Program in Progress
+File 070.wav - Program Loaded and Ready
+File 071.wav - Ready
+File 072.wav - Relaod Circuits are Initializing
+File 073.wav - Repeat Command
+File 074.wav - Searching
+File 075.wav - Security Authorization Accepted
+File 076.wav - Security Clearance Required...
+File 077.wav - Security Level 3 Is Required...
+File 078.wav - Select Button
+File 079.wav - Select Exit Help Button
+File 080.wav - Select Menu
+File 081.wav - Selected Word Not Found
+File 082.wav - Shied Penetration 17%
+File 083.wav - Specify Parameters
+File 084.wav - Standard Procedure Requires...
+File 085.wav - That Has Not Been Programed
+File 086.wav - That Info Is Not Available
+File 087.wav - That Information is Classified
+File 088.wav - That is Not a Valid Question
+File 089.wav - That Program is Already in Use
+File 090.wav - That Program is Available
+File 091.wav - The Automatic Pilot... is Not Fuctional
+File 092.wav - The Holo-Matrix Has Been Formated
+File 093.wav - The Logs Have Been Deleted
+File 094.wav - The Program Has Been Reinitiated
+File 095.wav - This Terminal is Not a Replicator
+File 096.wav - Transfer Complete
+File 097.wav - Unable to Comply
+File 098.wav - Unknown
+File 099.wav - Warning... Warp Core Collapse...
+File 100.wav - Warning
+File 101.wav - Warp Energy Increase...
+File 102.wav - Working
+File 103.wav - Your Request Does Not... Guidelines
+File 104.wav - Zimmerman Program... Complete
+
+File 301.wav - A New Collection of Data...
+File 302.wav - Access... is Restricted
+File 303.wav - Accessing Database Module
+File 304.wav - Accessing File
+File 305.wav - Accessing Library Computer Database
+File 307.wav - Acknowledged
+File 308.wav - Altering Search Parameters
+File 309.wav - Awaiting Input
+File 310.wav - Cancelled
+File 311.wav - Confirm Deactivation Request
+File 312.wav - Incoming Transmission
+File 314.wav - Input Received
+File 315.wav - Link Cancelled...
+File 316.wav - Link Data Disconnect...
+File 317.wav - Message Transmitted
+File 318.wav - Please Restate Request
+File 319.wav - Please Specify
+File 320.wav - Provide Requested Data
+File 322.wav - Re-establishing Link
+File 323.wav - Search Mode Activated
+File 324.wav - Starfleet Academy
+File 325.wav - Starfleet Headquarters
+File 326.wav - Specify Geographical Regions
+File 327.wav - Specify Search Parameters
+File 328.wav - Starfleet Science Institute
+File 329.wav - Transmit Message
+File 330.wav - Update Complete
+File 331.wav - Welcome to Starfleet Academy
+File 332.wav - Welcome to Starfleet Command
+File 333.wav - Welcome to Starfleet Science Institute
+File 335.wav - You Are not Authorized...

@@ -6,7 +6,7 @@ import facebook
 WORDS = ["FACEBOOK", "NOTIFICATION"]
 
 
-def handle(text, mic, profile):
+def handle(self, text, mic, profile):
     """
         Responds to user-input, typically speech text, with a summary of
         the user's Facebook notifications, including a count and details

@@ -6,8 +6,10 @@ WORDS = []
 
 PRIORITY = -(maxint + 1)
 
-
-def handle(text, mic, profile):
+red = (255,0,0)
+white = (255,255,255)
+black = 0, 0, 0
+def handle(self, text, mic, profile):
     """
         Reports that the user has unclear or unusable input.
 
@@ -18,12 +20,12 @@ def handle(text, mic, profile):
                    number)
     """
 
-    messages = ["I'm sorry, could you repeat that?",
-                "My apologies, could you try saying that again?",
-                "Say that again?", "I beg your pardon?"]
+    messages = ["did you say something?",
+                "what did you say",
+                "Say that again?", "speak the fuck up", "i cant fucking hear you", "blah blah blah", "did you say something?"]
 
     message = random.choice(messages)
-
+    self.blittxt('???', 400, red, black)
     mic.say(message)
 
 

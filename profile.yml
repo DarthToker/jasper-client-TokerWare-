@@ -1,0 +1,40 @@
+carrier: ''
+first_name: master
+gmail_password: ''
+location: '19344'
+phone_number: ''
+prefers_email: false
+
+keyword: 'MINION'
+audio:
+   #input_samplerate: 16000
+   input_samplewidth: 16
+   input_channels: 1
+   input_chunksize: 512
+   output_chunksize: 512
+   output_padding: 'no'    # true, yes
+
+stt_passive_engine: sphinx
+stt_engine: google
+keys:
+    GOOGLE_SPEECH: 'AIzaSyBdXoy-La4WUCuCnnwGJ3u63iQinBG9M68'
+    WOLFRAMALPHA: 'VP8L72-VYQXEKT72A'
+
+
+#stt_engine: sphinx
+#pocketsphinx:
+ # fst_model: '../phonetisaurus/g014b2b.fst'                              #optional
+ # hmm_dir: '/usr/local/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k' #optional
+
+
+
+tts_engine: espeak-tts
+espeak-tts:
+  #voice: 'default+m3'   # optional
+  pitch_adjustment: 40  # optional
+  words_per_minute: 160 # optional
+#tts_engine: festival-tts
+
+#tts_engine: alsa-ae
+output_device: pulse
+#input_device: pulse

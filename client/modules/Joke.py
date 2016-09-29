@@ -31,7 +31,7 @@ def getRandomJoke(filename=jasperpath.data('text', 'JOKES.txt')):
     return joke
 
 
-def handle(text, mic, profile):
+def handle(self, text, mic, profile):
     """
         Responds to user-input, typically speech text, by telling a joke.
 

@@ -5,7 +5,7 @@ import re
 WORDS = ["MEANING", "OF", "LIFE"]
 
 
-def handle(text, mic, profile):
+def handle(self, text, mic, profile):
     """
         Responds to user-input, typically speech text, by relaying the
         meaning of life.

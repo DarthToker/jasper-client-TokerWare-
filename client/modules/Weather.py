@@ -91,7 +91,7 @@ def get_forecast_by_wmo_id(wmo_id):
                             % wmo_id)['entries']
 
 
-def handle(text, mic, profile):
+def handle(self, text, mic, profile):
     """
     Responds to user-input, typically speech text, with a summary of
     the relevant weather for the requested date (typically, weather

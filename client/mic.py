@@ -11,6 +11,17 @@ import alteration
 import jasperpath
 
 
+import RPi.GPIO as GPIO
+import time
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(17,GPIO.OUT)
+GPIO.output(17,0)
+
+
+
+
+
 class Mic:
 
     speechRec = None
@@ -49,7 +60,7 @@ class Mic:
         # TODO: Consolidate variables from the next three functions
         THRESHOLD_MULTIPLIER = 1.8
         RATE = 16000
-        CHUNK = 1024
+        CHUNK = 512
 
         # number of seconds to allow to establish threshold
         THRESHOLD_TIME = 1
@@ -94,7 +105,7 @@ class Mic:
 
         THRESHOLD_MULTIPLIER = 1.8
         RATE = 16000
-        CHUNK = 1024
+        CHUNK = 512
 
         # number of seconds to allow to establish threshold
         THRESHOLD_TIME = 1
@@ -203,14 +214,16 @@ class Mic:
         """
 
         RATE = 16000
-        CHUNK = 1024
+        CHUNK = 512
         LISTEN_TIME = 12
 
         # check if no threshold provided
         if THRESHOLD is None:
             THRESHOLD = self.fetchThreshold()
 
-        self.speaker.play(jasperpath.data('audio', 'beep_hi.wav'))
+
+        GPIO.output(17,1)
+        self.speaker.play(jasperpath.data('audio', 'what.wav'))
 
         # prepare recording stream
         stream = self._audio.open(format=pyaudio.paInt16,
@@ -239,7 +252,9 @@ class Mic:
             if average < THRESHOLD * 0.8:
                 break
 
-        self.speaker.play(jasperpath.data('audio', 'beep_lo.wav'))
+        self.speaker.play(jasperpath.data('audio', 'stend.wav'))
+        GPIO.output(17,0)
+
 
         # save the audio data
         stream.stop_stream()
